@@ -1,6 +1,10 @@
 * {
+  flex: 1;
+ justify-content: center;
+align-items: center;
+  text-align:center;
   margin: 0;
-  padding: 0;
+  padding: 2px;
   box-sizing: border-box;
   font-family: sans-serif;
 }
@@ -8,7 +12,7 @@ body {
   font-size: 14px;
   background: #f2f2f2;
 }
-.cont {
+ .container {
   border-top: 5px solid #fbb605;
   background-color: white;
   width: 800px;
@@ -17,18 +21,23 @@ body {
   margin: 20px auto 0;
   box-shadow: 0 0 6px 7px rgba(0, 0, 0, 0.5);
 }
-.cont h2 {
+.container h2 {
   font-size: 25px;
   line-height: 24px;
   padding: 30px;
   text-align: center;
 }
-.input-name {
-  width: 90%;
+.input{
+  width:32%;
+ align-items: center;
   position: relative;
-  margin: 20px auto;
+ 
 }
 
+.input-p{
+  width:10%;
+  margin:auto
+}
 #name .x {
   margin-left: 35px;
 }
@@ -52,6 +61,14 @@ body {
   font-size: 14px;
   border-right: 1px solid black;
   height: 100%;
+}
+.method {
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px;
+}
+.input-p{
+  width: 30%;
 }
 
 image {
@@ -78,8 +95,8 @@ image {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.image {
-  width: 90%;
+.img {
+  width: 50%;
   position: relative;
   margin: 20px auto;
 }
@@ -93,19 +110,21 @@ image {
 .btn {
   background-color: #fbb605;
   box-sizing: border-box;
-  color: #fff;
+  color: rgb(255, 255, 255);
+  margin-top: 8px;
   padding: 8px;
-  font-size: 15px;
-  width: 100%;
+  font-size:17px;
+  width: 50%;
   border: 2px solid #fbb605;
   border-radius: 10px;
   outline: none;
   transition: 0.5s;
   cursor: pointer;
+
 }
 
 .btn:hover {
-  background-color: transparent;
+  background-color:rgb(255, 255, 255);
   color: #000;
 }
 
@@ -137,4 +156,6 @@ image {
     width: 400px;
     padding: 10px;
   }
-}
+} 
+
+  
